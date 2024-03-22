@@ -8,23 +8,6 @@ By the end of this course, I was be able to:
 
 # Applications
 
-## Calculator app
-- The layout should have at least 16 buttons: 1,2,3,4,5,6,7,8,9,0,C,+,-,x,/,=
-- The layout should also have a label field for the result that will show "0" at the beginning of the app
-
-The functionality should be limited to the following:
-- If the user presses "C" the result field is set to "0"
-- If the user presses any digit button, the current value of the result field should be retrieved and if it is currently "0" then it should be replaced by the value of the corresponding button that was pressed. For example, if the current result is "0" and you press "1" then the result field should be changed to "1"
-Otherwise, if the user presses any digit button and the current value of the result field is not "0" then it should be appended by the value of the corresponding button that was pressed. For example, if the current result is "2" and you press "1" then the result field should be changed to "21"
-
-## Unit Converter App
-
-- Create a Unit Converter App in Android
-- The App should have 1 main activity with options to select the type of conversion between Length, Weight, and Temperature.
-- This could be implemented as a menu of 3 buttons. By clicking each button, another activity should open
-- The App should have 3 more activities—one for each type of unit
-- Each of these activities should have the necessary fields and buttons and radio buttons in order to allow the user to type a number, select unit (e.g. meters or feet in the case of Length conversion) and press Convert to see the result
-
 ## GPT Treasure Hunt App
 - The App should have 1 main activity with a first clue or introductory storyline. Make sure you decorate it with nice graphics/font styles/design etc
 - The App should be able to detect and respond to AT LEAST 3 geographic locations in the following ways:
@@ -42,6 +25,23 @@ Create a game that uses SurfaceView in a full-screen mode and is controlled usin
 - The game should show animated objects that are falling down: a) some objects need to be avoided otherwise they cost 1 point, b) some objects need to be collected to earn 1 point. 
 - The App should have a single color background (due to slow execution in the android emulator) and SMALL images as the "player" object, the "obstacle" object, and the "collectible" object. If you use large images it will make it hard to emulate. Use my sample code to scale the images down as I show in the example (200x200 or so).
 - On the top of the screen, you should render a text with the score. "Score: ...." which should be rendered along with the rest of the scene and reflect the current score in the game.
+  
+## Calculator app
+- The layout should have at least 16 buttons: 1,2,3,4,5,6,7,8,9,0,C,+,-,x,/,=
+- The layout should also have a label field for the result that will show "0" at the beginning of the app
+
+The functionality should be limited to the following:
+- If the user presses "C" the result field is set to "0"
+- If the user presses any digit button, the current value of the result field should be retrieved and if it is currently "0" then it should be replaced by the value of the corresponding button that was pressed. For example, if the current result is "0" and you press "1" then the result field should be changed to "1"
+Otherwise, if the user presses any digit button and the current value of the result field is not "0" then it should be appended by the value of the corresponding button that was pressed. For example, if the current result is "2" and you press "1" then the result field should be changed to "21"
+
+## Unit Converter App
+
+- Create a Unit Converter App in Android
+- The App should have 1 main activity with options to select the type of conversion between Length, Weight, and Temperature.
+- This could be implemented as a menu of 3 buttons. By clicking each button, another activity should open
+- The App should have 3 more activities—one for each type of unit
+- Each of these activities should have the necessary fields and buttons and radio buttons in order to allow the user to type a number, select unit (e.g. meters or feet in the case of Length conversion) and press Convert to see the result
 
 ## Design Smartwatch Face
 - In this assignment you need to create your own Android Watch Face that is responsive according to either a) weather changes or b) date changes.
